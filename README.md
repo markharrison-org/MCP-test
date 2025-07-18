@@ -26,6 +26,14 @@ Run the scraper:
 python scrape_wonky_carrots.py
 ```
 
+### Demo Mode
+
+To see how the price extraction works with mock data:
+
+```bash
+python demo_scraper.py
+```
+
 The script will:
 1. Search for Wonky Carrots on Ocado
 2. Extract the price from the product page
