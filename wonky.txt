@@ -1,0 +1,11 @@
+Wonky Carrots Price Information
+=================================
+
+Product: Burgess Harvest Veg Wonky Carrots
+Size: 2kg
+Price: £2.50
+Price per kg: £1.25
+
+Source: https://www.ocado.com/
+Extracted on: 2025-01-18
+Search URL: https://www.ocado.com/search?entry=Wonky%20Carrots
