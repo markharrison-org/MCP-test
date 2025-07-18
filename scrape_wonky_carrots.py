@@ -147,7 +147,11 @@ def main():
             with open('wonky_carrots_price.json', 'w') as f:
                 json.dump(result, f, indent=2)
             
-            print(f"💾 Price saved to wonky_carrots_price.json")
+            # Also save price to wonky.txt as requested
+            with open('wonky.txt', 'w') as f:
+                f.write(f"{price:.2f}")
+            
+            print(f"💾 Price saved to wonky_carrots_price.json and wonky.txt")
             
         else:
             print("❌ Could not find Wonky Carrots price on Ocado")
